@@ -1,45 +1,309 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Proyecto Web</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <title>Finca Aguilar Peralta</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="Finca cafetalera familiar en Chiriquí, Panamá, productora de café de altura de calidad mundial, cultivado de forma sostenible para mercados internacionales.">
+    <meta name="keywords" content="café de Panamá, café de altura, café especial panameño, finca cafetalera en Chiriquí, exportador de café panameño, café artesanal, café de especialidad, café sostenible, productores de café en Panamá, café gourmet">
+
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.min.css" rel="stylesheet">
 </head>
+
 <body>
-
-    <header>
-        <h1>Bienvenido a Mi Proyecto</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+    <!-- Navbar Start -->
+    
+	<div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+            <a href="index.html" class="navbar-brand px-lg-4 m-0">
+                <h1 class="m-0 display-4 text-white">Aguilar Peralta</h5>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto p-4">
+                    <a href="#" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">About</a>
+                    <a href="#" class="nav-item nav-link">Service</a>
+                    <a href="#" class="nav-item nav-link">Menu</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu text-capitalize">
+                            <a href="#" class="dropdown-item">Reservation</a>
+                            <a href="#" class="dropdown-item">Testimonial</a>
+                        </div>
+                    </div>
+                    <a href="#" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
         </nav>
-    </header>
+    </div>
+    <!-- Navbar End -->
 
-    <main>
-        <section id="hero">
-            <h2>Un Título Impactante</h2>
-            <p>Este es el contenido principal de tu página. Puedes agregar párrafos, imágenes y más.</p>
-            <button id="miBoton">Haz Clic Aquí</button>
-        </section>
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <h2 class="text-primary font-weight-medium m-0">Specialty Coffe</h2>
+                        <h1 class="display-1 text-white m-0">Café de Altura</h1>
+                        <h2 class="text-white m-0">* Desde 1960 *</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <h2 class="text-primary font-weight-medium m-0">Specialty Coffe</h2>
+                        <h1 class="display-1 text-white m-0">Café de Altura</h1>
+                        <h2 class="text-white m-0">* Desde 1960 *</h2>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#blog-carousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
 
-        <section id="features">
-            <h2>Características</h2>
-            <ul>
-                <li>Característica 1</li>
-                <li>Característica 2</li>
-                <li>Característica 3</li>
-            </ul>
-        </section>
-    </main>
 
-    <footer>
-        <p>&copy; 2025 Mi Proyecto Web. Todos los derechos reservados.</p>
-    </footer>
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Sobre nosotros</h4>
+                <h1 class="display-4">Sirviendo desde 1960</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 py-0 py-lg-5">
+                    <h1 class="mb-3">Nuestra historia</h1>
+                    <h5 class="mb-3">Producimos café de especialidad</h5>
+                    <p>Somos productores de café panameño especializados en café de altura. Nuestra familia administra la finca, representando la segunda y tercera generación de la familia Aguilar Barroso. Desde la década de 1960 hemos cultivado café, y nos enorgullece ser una de las familias pioneras que se establecieron en la comunidad de Santa Clara, enclavada en las pintorescas tierras altas de Chiriquí.</p>
+                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                </div>
+                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img/about.png" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4 py-0 py-lg-5">
+                    <h1 class="mb-3">Nuestra vision</h1>
+                    <p>Convertirnos en una finca cafetalera reconocida a nivel mundial por la producción y exportación de café de altura panameño de excelencia, cultivado de forma sostenible y artesanal en las tierras altas de Chiriquí. Aspiramos a posicionar nuestra marca entre los cafés especiales más valorados en los mercados internacionales, destacando por nuestro compromiso con la calidad, la innovación agrícola y el legado familiar que nos impulsa.</p>
+                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
 
+
+    <!-- Service Start -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Nuestros servicios</h4>
+                <h1 class="display-4">Semillas frescas y orgánicas</h1>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-award service-icon"></i>CATUAI</h4>
+                            <p class="m-0">El cultivar fue creado en 1949 a partir del cruce entre Caturra amarillo y Mundo Novo, y originalmente se llamó H-2077. Es una planta compacta con alto potencial de rendimiento y calidad estándar en Centroamérica. Existen variedades de fruto amarillo y fruto rojo, y desde entonces se han realizado muchas selecciones en diferentes países.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-2.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-award service-icon"></i>GEISHA</h4>
+                            <p class="m-0">La Geisha panameña descendiente de la T2722 es distintiva y uniforme. Está asociada con una calidad de taza excepcionalmente alta cuando las plantas son bien manejadas en altitudes elevadas, y es conocida por sus delicados aromas florales, a jazmín y durazno.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-3.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-award service-icon"></i>PACAMARA</h4>
+                            <p class="m-0">Creado mediante el cruce de Pacas con Maragogype. Selección de pedigrí incompleta realizada por el Instituto Salvadoreño de Investigaciones del Café (ISIC). Ha sido cultivado con éxito en Panamá por más de una década. Capaz de producir una calidad de taza excepcional.r</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="img/service-4.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-truck service-icon"></i>Calidad de exportación</h4>
+                            <p class="m-0">Exportamos nuestros productos a diferentes partes del mundo.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonios</h4>
+                <h1 class="display-4">Que dicen nuestros clientes</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/testimonial-1.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>Client Name</h4>
+                            <i>Profession</i>
+                        </div>
+                    </div>
+                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
+                </div>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>Client Name</h4>
+                            <i>Profession</i>
+                        </div>
+                    </div>
+                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
+                </div>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/testimonial-3.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>Client Name</h4>
+                            <i>Profession</i>
+                        </div>
+                    </div>
+                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
+                </div>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/testimonial-4.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>Client Name</h4>
+                            <i>Profession</i>
+                        </div>
+                    </div>
+                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
+        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Contáctenos</h4>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Finca Aguilar Peralta. Vía a Sta. Clara - Piedra Candela, Santa Clara. District of Renacimiento. Chiriquí, Panama.</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+507 000-0000</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>hello@fincaaguilarperalta.com</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Siguenos</h4>
+                <p>en nuestras redes sociales</p>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="https://www.instagram.com/finca_aguilar_peralta/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Open Hours</h4>
+                <div>
+                    <h6 class="text-white text-uppercase">Lunes - Viernes</h6>
+                    <p>8.00 AM - 8.00 PM</p>
+                    <h6 class="text-white text-uppercase">Sabados - Domingos</h6>
+                    <p>2.00 PM - 8.00 PM</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Newsletter</h4>
+                <p>Suscribase a nuestro newsletter y conozca mas sobre la produccion de cafe de altura en Panamá</p>
+                <div class="w-100">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary font-weight-bold px-3">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+            <p class="mb-2 text-white">Copyright &copy; <a class="font-weight-bold" href="#">Roar Web Development</a>. All Rights Reserved.</a></p>
+            <p class="m-0 text-white">Designed by <a class="font-weight-bold" href="#">Roar Web</a></p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
